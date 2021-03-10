@@ -10,12 +10,12 @@ def isPrime(n):
 
 print(isPrime(0))
 lpg=0
-for j in range(0,1000):
+for j in range(-62,1000):
    if j%2==0:
       print(j,"/1000")
    for k in range(-1000,1000):
       somme=0
-      for i in range(50):
+      for i in range(80):
          form=i**2+i*j+k
          if isPrime(form) == True:
             somme+=1
@@ -23,4 +23,4 @@ for j in range(0,1000):
                lpg=somme
                print(form," ",somme," =" ,i," ",j," ",k)
             
-
+#1601   71  = 70   -61   971
